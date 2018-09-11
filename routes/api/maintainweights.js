@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const jobsController = require("../../controllers/maintainweightController");
+const maintainweightController = require("../../controllers/maintainweightController");
 
 // Matches with "/api/maintainweight"
 router.route("/")

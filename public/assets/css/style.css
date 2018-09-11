@@ -1,0 +1,126 @@
+form{
+	border: 2px solid hsl(0, 63%, 40%);
+	margin: 1%;
+	padding: 1%;
+}
+#quick-start-sign-in, #quick-start-sign-up {
+	background-color: hsl(0, 63%, 40%);
+}
+h1 {
+	font-size: 5em;
+	font-style: strong;
+}
+.header{
+	color: hsl(0, 63%, 40%);
+}
+button, input, optgroup, select, textarea{
+	color: hsl(0, 63%, 40%);
+}
+a:active,
+a:hover {
+	color: hsl(0, 63%, 40%);
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+	border-bottom: hsl(0, 63%, 40%);
+	box-shadow: hsl(0, 63%, 40%);
+	color: hsl(0, 63%, 40%);
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: hsl(0, 63%, 40%)
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+	margin: 0;
+}
+
+.nav-wrapper{
+	color: #333;
+}
+
+#workoutsRow {
+	text-align: center;
+	margin-top: 1em;
+	color: hsl(0, 63%, 40%);
+	font-size: 3em;
+}
+
+h1, h4 {
+	color: hsl(0, 63%, 40%);
+
+	text-align: center;
+}
+
+#dashboardHeader {
+	margin-top: 1.75em;
+}
+
+#userPic {
+	text-align: center;
+}
+
+#userInfo {
+	text-align: center;
+}
+
+#profile-image {
+	margin-top: 1em;
+}
+
+#clickToUpdate {
+	color: hsl(0, 63%, 40%);
+}
+
+li {
+	color:hsl(0, 63%, 40%);
+	font-size: 2em;
+}
+footer{
+	background-color: hsl(0, 6%, 25%);
+}
+.page-footer{
+	background-color: hsl(0, 63%, 40%);
+}

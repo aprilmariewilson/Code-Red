@@ -1,7 +1,7 @@
 const db = require("../models");
 const stringify = require("json-stringify");
 
-// Defining methods for the booksController
+// Defining methods for the Controller
 module.exports = {
 	findAll: function (req, res) {
 		db.Bulkweight

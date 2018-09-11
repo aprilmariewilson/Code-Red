@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Code Red Bootcamp</title>
+	 <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <script
+     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+     integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+     crossorigin="anonymous"></script>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
+</head>
+
+<body>
+	<nav class="black" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="index.html" class="brand-logo">
+				<img src="https://tse1.mm.bing.net/th?id=OIP.ssIg8j9mVw7t9xF7U42sHwHaCl&pid=15.1&P=0&w=225&h=65">
+			</a>
+			<ul class="right hide-on-med-and-down" id="navMenu">
+				<li>
+					<a href="dashboard.html">Dashboard</a>
+				</li>
+				<li>
+					<a href="index.html" btn class="btnLogOut" id="quick-start-log-out">Log Out</a>
+				</li>
+				<li>
+					<a href="demos.html">Demos</a>
+				</li>
+				<li>
+					<a href="https://www.myfitnesspal.com/account/login">MyFitnessPal</a>
+				</li>
+			</ul>
+			<ul id="nav-mobile" class="side-nav">
+				<li>
+					<a href="dashboard.html">Dashboard</a>
+				</li>
+				<li>
+					<a href="demos.html">Demos</a>
+				</li>
+				<li>
+					<a href="https://www.myfitnesspal.com/account/login">MyFitnessPal</a>
+				</li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse">
+				<p class="material-icons">MENU</p>
+			</a>
+		</div>
+	</nav>
+	<div id="index-banner" class="parallax-container">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<br>
+				<br>
+				<h1 class="header center red-text">Welcome to Code Red Bootcamp</h1>
+				<div class="row right">
+					<h5 class="header col s12 light ">A modern way to up your workout routine</h5>
+				</div>
+				<br>
+				<br>
+			</div>
+		</div>
+		<div class="parallax">
+			<img src="https://tse3.mm.bing.net/th?id=OIP.bFA_io9ay1oWMFUDxgSLOQHaD5&pid=15.1&P=0&w=324&h=171" alt="Unsplashed background img 1">
+		</div>
+	</div>
+
+	<div class="container icon">
+		<div class="row">
+			<div class="col s6">
+				<form>
+					<h4>Create Account</h4>
+					<div class="input-field">
+						<input id="first_name" type="text" class="validate">
+						<label for="first_name">First Name</label>
+					</div>
+					<div class="input-field">
+						<input id="last_name" type="text" class="validate">
+						<label for="last_name">Last Name</label>
+					</div>
+					<div class="input-field">
+						<input id="date_of_birth" type="date" class="validate">
+						<label for="date_of_birth" class="active">Date of Birth</label>
+					</div>
+					<div class="input-field">
+						<input id="username" type="text" class="validate">
+						<label for="username">Username</label>
+					</div>
+					<div class="input-field">
+						<input id="signEmail" type="email" class="validate">
+						<label for="email">Email</label>
+					</div>
+					<div class="input-field">
+						<input id="signPassword" type="password" class="validate">
+						<label for="password">Password</label>
+					</div>
+					<!-- <button id="submit2" class="btn waves-effect waves-light red" type="submit" name="action">Submit</button> -->
+					<a href="questions.html"><button class="mdl-button mdl-js-button btn waves-effect waves" id="quick-start-sign-up" name="signup">Sign Up</button></a>
+					&nbsp;&nbsp;&nbsp;
+			</div>
+			</form>
+			<div class="col s6">
+				<form>
+					<h4>Account Login</h4>
+					<div class="input-field">
+						<input id="loginEmail" type="text" class="validate">
+						<label for="email">Email</label>
+					</div>
+					<div class="input-field">
+						<input id="loginPassword" type="password" class="validate">
+						<label for="password">Password</label>
+					</div>
+					<a href="#" onclick="someFunc()"><button class="mdl-button mdl-js-button btn waves-effect waves" id="quick-start-sign-in" name="signin">Sign In</button></a>
+					&nbsp;&nbsp;&nbsp;
+			</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="parallax-container valign-wrapper">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<div class="row center">
+				</div>
+			</div>
+		</div>
+		<div class="parallax">
+			<img src="https://tse4.mm.bing.net/th?id=OIP.EukyaerMtjDGCLiZYh_ZGgHaEK&pid=15.1&P=0&w=336&h=190https://tse1.mm.bing.net/th?id=OIP.rbeUzh1mW3F2MprmPrL2pgHaCK&pid=15.1&P=0&w=573&h=168"
+			 alt="Unsplashed background img 2">
+		</div>
+	</div>
+
+	<div class="container icon">
+		<div class="section">
+
+			<!--   Icon Section   -->
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center red-text">
+							<i class="header">Dashboard</i>
+						</h2>
+						<h5 class="center">Create Your Routine</h5>
+
+						<p class="light">We did most of the heavy lifting for you to provide an easy questionairre to create a personalized workout routine.</p>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center red-text">
+							<i class="header">Demos</i>
+						</h2>
+						<h5 class="center">See step by step demos.</h5>
+						<p class="light">Confused by a particular move or just want to workout a musclegroup in a different way? Check out our demos to increase
+							your efficiency and see your results even faster.</p>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center red-text">
+							<i class="header">MyFitnessPal</i>
+						</h2>
+						<h5 class="center">Connect your progress</h5>
+						<p class="light">By utilizing elements and principles of MyFitnesPal, we were able to create functionality to get the most of your workout
+							anad nutrition plan. Update your workouts to MyFitnessPal to create a total wellness plan</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="parallax-container valign-wrapper">
+		<div class="parallax">
+			<img src="assets\images\background3.jpeg" alt="Unsplashed background img 3">
+		</div>
+	</div>
+
+	<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Team Bio</h5>
+						<p class="grey-text text-lighten-4">We are a passionate team of collaborators that want ot help people spark their energy to pursue their passions.</p>
+	
+	
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li>
+								<a class="white-text" target="_blank" href="#!">Luke Epps</a>
+							</li>
+							<li>
+								<a class="white-text" target="_blank" href="#!">Amy Harris</a>
+							</li>
+							<li>
+								<a class="white-text" target="_blank" href="portfolio-april-wilson.herokuapp.com">April Wilson</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container footer center">
+					Created by
+					<a class="white-text " href="index.html"> Code Red Team</a>
+				</div>
+			</div>
+		</footer>
+	<!--  Scripts-->
+
+</body>
+
+</html>
